@@ -1,0 +1,22 @@
+import { Text, View, StyleSheet } from 'react-native'
+import { colors } from '../styles/colors'
+
+export default function Search() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Search</Text>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  text: {
+    color: colors.white,
+  },
+})
