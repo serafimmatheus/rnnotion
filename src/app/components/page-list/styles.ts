@@ -25,6 +25,7 @@ export const s = StyleSheet.create({
   list: {
     backgroundColor: colors.gray[700],
     borderRadius: 8,
+    marginBottom: 24,
   },
 
   separator: {

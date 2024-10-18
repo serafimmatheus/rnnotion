@@ -1,4 +1,4 @@
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, ScrollView } from 'react-native'
 import Header from '../components/header'
 import RecentList from '../components/recent-list'
 
@@ -9,8 +9,11 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Header />
-      <RecentList data={DATA.RECENT} />
-      <PageList data={DATA.PAGES} />
+
+      <ScrollView>
+        <RecentList data={DATA.RECENT} />
+        <PageList data={DATA.PAGES} />
+      </ScrollView>
     </View>
   )
 }

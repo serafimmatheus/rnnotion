@@ -33,6 +33,7 @@ export default function PageList({ data }: PageListType) {
         showsHorizontalScrollIndicator={false}
         style={s.list}
         ItemSeparatorComponent={() => <View style={s.separator} />}
+        scrollEnabled={false}
       />
     </View>
   )
