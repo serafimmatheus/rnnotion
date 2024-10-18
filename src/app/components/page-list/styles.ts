@@ -3,16 +3,22 @@ import { StyleSheet } from 'react-native'
 
 export const s = StyleSheet.create({
   container: {
-    width: '100%',
+    paddingEnd: 20,
+    paddingStart: 20,
+    marginTop: 20,
+    gap: 12,
+  },
+
+  header: {
     flexDirection: 'row',
-    gap: 7,
     alignItems: 'center',
-    padding: 16,
+    gap: 16,
+    paddingRight: 16,
   },
 
   title: {
-    flex: 1,
-    color: colors.gray[100],
+    color: colors.gray[300],
     fontSize: 16,
+    flex: 1,
   },
 })
