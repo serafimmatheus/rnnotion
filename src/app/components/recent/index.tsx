@@ -14,7 +14,7 @@ type RecentListType = {
 export default function Recent({ data }: RecentListType) {
   return (
     <TouchableOpacity style={s.container} activeOpacity={0.7}>
-      <Image style={s.cover} source={{ uri: data.cover ?? '' }} />
+      <Image style={s.cover} source={{ uri: data.cover }} />
 
       <View style={s.content}>
         <Feather

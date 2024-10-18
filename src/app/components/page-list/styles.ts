@@ -21,4 +21,15 @@ export const s = StyleSheet.create({
     fontSize: 16,
     flex: 1,
   },
+
+  list: {
+    backgroundColor: colors.gray[700],
+    borderRadius: 8,
+  },
+
+  separator: {
+    height: 0.5,
+    backgroundColor: colors.gray[500],
+    marginLeft: 42,
+  },
 })

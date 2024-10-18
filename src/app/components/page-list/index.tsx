@@ -30,6 +30,9 @@ export default function PageList({ data }: PageListType) {
         data={data}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => <Page title={item.title} />}
+        showsHorizontalScrollIndicator={false}
+        style={s.list}
+        ItemSeparatorComponent={() => <View style={s.separator} />}
       />
     </View>
   )
